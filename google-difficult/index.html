@@ -5,6 +5,123 @@
     <title>Document</title>
 </head>
 <body>
-    Hello
+    <div class="navbar">
+        <div class="left">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        </div>
+
+        <div class="right">
+            <button>Sign in</button>
+        </div>
+
+        <div class="center">
+            <input class="search-bar" type="text">
+        </div>
+    </div>
+
+    <div class="nav-links">
+        <ul>
+            <li class="left"><a href="">All</a></li>
+            <li class="left"><a href="">News</a></li>
+            <li class="left"><a href="">Videos</a></li>
+            <li class="left"><a href="">Maps</a></li>
+            <li class="left"><a href="">Videos</a></li>
+            <li class="left"><a href="">Shopping</a></li>
+            <li class="left"><a href="">More</a></li>
+            <li class="right"><a href="">Settings</a></li>
+            <li class="right"><a href="">Tools</a></li>
+        </ul>
+    </div>
+
+    <hr class="line";>
+
+    <div> 
+        About 89,100,000 resuls (0.46 seconds)
+    </div>
+
 </body>
+
+<style>
+
+    /* NavBar - First Level */
+
+    .navbar {
+        height: 55px;
+        margin-top: 20px;
+    }
+
+    .navbar .left {
+        float: left;
+        width: 100px;
+        /* background-color: blue; */
+    }
+
+    .navbar .left img {
+        max-width: 100%;
+        height: auto;
+        padding: 4px 28px 0 20px;
+    }
+
+    .navbar .right {
+        float: right;
+        width: 100px;
+        padding-right: 17px;
+        padding-top: 3px;
+        /* background-color: blue; */
+    } 
+
+    .navbar .right button {
+        border-radius: 5px;
+        padding: 9px 23px;
+        background-color: #1a73e8;
+        color: rgb(255,255,255);
+        font-size: 14px;
+        font-family: Google Sans;
+        letter-spacing: .25px;
+    }
+
+    .navbar .center {
+        margin: 0 auto;
+        width: 400px;
+        /* background-color: blue; */
+        padding-right: 30em;
+    }
+
+    .search-bar {
+        border-radius: 25px;
+        height: 44px;
+        width: 690px;
+    }
+
+    /* NavBar - Second Level */
+
+    .nav-links li { 
+        display: inline-block;
+    }
+
+    .nav-links ul {
+        /* background-color:gray; */
+        text-align: center;
+        padding-right: 22.5em;
+        margin: 0;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+    }
+
+    .nav-links ul .left {
+        padding: 16px 12px 10px 9px;
+    }
+
+    hr {
+        margin-left: -20px;
+        margin-right: -20px;
+        border: 0px;
+        border-top: 1px solid #ccc;
+        }
+
+
+
+</style>
 </html>
